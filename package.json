@@ -1,0 +1,23 @@
+{
+  "name": "magpie-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "install-all": "concurrently \"cd backend && npm install\" \"cd client && npm install\"",
+    "start": "concurrently \"cd backend && yarn start\" \"cd application && yarn start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpazyot127/MagpieMock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tpazyot127/MagpieMock/issues"
+  },
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
