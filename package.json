@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.tsx",
   "scripts": {
-    "install-all": "concurrently \"cd backend && npm install\" \"cd client && npm install\"",
+    "install-all": "concurrently \"cd backend && yarn install\" \"cd application && yarn install\"",
     "start": "concurrently \"cd backend && yarn start\" \"cd application && yarn start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
